@@ -11,7 +11,6 @@ num = 40
 st.image(f"./gif/{df.iloc[num, 1]}")
 st.code(f"{df.iloc[num, 2]}", language="python")
 
-"""### gif from local file"""
 with open("./gif/easing_light.gif", "rb") as file_ :
   contents = file_.read()
   data_url = base64.b64encode(contents).decode("utf-8")
