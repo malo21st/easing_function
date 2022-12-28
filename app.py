@@ -3,10 +3,11 @@ import pandas as pd
 
 df = pd.read_json("easing.json")
 
+st.title(""easing function in Python)
 st.dataframe(df)
 
 num = 40
-st.image(f"./gif/{df.iloc[num, 1]}", format = 'GIF')
+st.image(f"./gif/{df.iloc[num, 1]}")
 st.code(f"{df.iloc[num, 2]}", language="python")
 
 """### gif from local file"""
