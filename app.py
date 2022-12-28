@@ -5,4 +5,4 @@ df = pd.read_json("easing.json")
 
 st.dataframe(df)
 
-st.image(f"/gif/{df.iloc[0, 1]}")
+st.image(f"./gif/{df.iloc[0, 1]}")
