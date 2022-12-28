@@ -17,6 +17,6 @@ with open("./gif/easing_light.gif", "rb") as file_ :
   data_url = base64.b64encode(contents).decode("utf-8")
 
 st.markdown(
-    f'<img src="data:image/gif;base64,{data_url}" width="80%">',
+    f'<img src="data:image/gif;base64,{data_url}" width="100%">',
     unsafe_allow_html=True,
 )
