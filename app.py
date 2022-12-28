@@ -5,5 +5,6 @@ df = pd.read_json("easing.json")
 
 st.dataframe(df)
 
-st.image(f"./gif/{df.iloc[0, 1]}")
-st.code(f"{df.iloc[0, 2]}", language="python")
+num = 40
+st.image(f"./gif/{df.iloc[num, 1]}")
+st.code(f"{df.iloc[num, 2]}", language="python")
