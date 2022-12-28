@@ -8,7 +8,6 @@ st.dataframe(df)
 num = 40
 st.image(f"./gif/{df.iloc[num, 1]}", format = 'GIF')
 st.code(f"{df.iloc[num, 2]}", language="python")
-st.image(, format = 'GIF')
 
 """### gif from local file"""
 with open("./gif/easing_light.gif", "rb") as file_ :
