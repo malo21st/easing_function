@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.read_json("easing.json")
 
-st.title(""easing function in Python)
+st.title("easing function in Python")
 st.dataframe(df)
 
 num = 40
